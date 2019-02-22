@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { G, Line } from 'react-native-svg'
+import { Svg } from 'expo';
+const { G, Line } = Svg;
 
 const Horizontal = ({ ticks = [], y, svg }) => {
     return (

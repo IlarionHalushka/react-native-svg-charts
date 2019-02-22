@@ -2,8 +2,8 @@ import * as array from 'd3-array'
 import PropTypes from 'prop-types'
 import React, { PureComponent } from 'react'
 import { View } from 'react-native'
-import Svg from 'react-native-svg'
-import Path from '../animated-path'
+import { Svg } from 'expo'
+const { Path } = Svg;
 import Chart from './chart'
 
 class ChartGrouped extends PureComponent {

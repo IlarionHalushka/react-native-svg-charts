@@ -1,6 +1,8 @@
 import React from 'react'
 import { AreaChart } from 'react-native-svg-charts'
-import { Defs, LinearGradient, Stop } from 'react-native-svg'
+import { Svg } from 'expo'
+const { Defs, LinearGradient, Stop } = Svg;
+
 
 class GradientExample extends React.PureComponent {
 

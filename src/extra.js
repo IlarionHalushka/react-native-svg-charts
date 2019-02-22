@@ -1,5 +1,6 @@
 import React from 'react'
-import { G } from 'react-native-svg'
+import { Svg } from 'expo';
+const { G } = Svg;
 
 const Extra = ({ children, ...props }) => {
     return (

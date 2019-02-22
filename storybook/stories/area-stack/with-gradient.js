@@ -1,6 +1,7 @@
 import React from 'react'
 import { StackedAreaChart, Grid } from 'react-native-svg-charts'
-import { Defs, Stop, LinearGradient } from 'react-native-svg'
+import { Svg } from 'expo'
+const { Defs, Stop, LinearGradient } = Svg;
 import * as shape from 'd3-shape'
 
 class AreaStackChartExample extends React.PureComponent {

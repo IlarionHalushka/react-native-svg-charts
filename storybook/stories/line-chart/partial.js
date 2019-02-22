@@ -1,5 +1,6 @@
 import React from 'react'
-import { ClipPath, Defs, Rect } from 'react-native-svg'
+import { Svg } from 'expo'
+const { ClipPath, Defs, Rect } = Svg;
 import { LineChart, Path } from 'react-native-svg-charts'
 
 class PartialLineChartExample extends React.PureComponent {

@@ -1,11 +1,11 @@
 import React, { PureComponent } from 'react'
 import { View } from 'react-native'
 import PropTypes from 'prop-types'
-import Svg from 'react-native-svg'
+import { Svg } from 'expo'
 import * as array from 'd3-array'
 import * as scale from 'd3-scale'
 import * as shape from 'd3-shape'
-import Path from '../animated-path'
+const { Path } = Svg;
 
 class StackedBarGrouped extends PureComponent {
     state = {
